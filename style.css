@@ -56,7 +56,16 @@ main {
 }
 
 .main-item {
+	display: flex;
+	flex-direction: column;
+	border-left: 1rem solid #4682b4;
 	padding: 1rem;
+}
+
+.main-action {
+	margin-top: auto;
+	align-self: flex-end;
+	justify-self: end;
 }
 
 body {
