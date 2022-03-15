@@ -144,7 +144,7 @@ aside {
 
 .trending-container {
 	display: grid;
-	gap: 5px;
+	gap: 1rem;
 	justify-content: start;
 	padding: 1rem;
 }
@@ -152,8 +152,10 @@ aside {
 .trending-item {
 	display: grid;
 	grid-template-columns: auto auto;
-	align-items: center;
+	align-items: start;
+	justify-content: start;
 	column-gap: 1rem;
+	text-align: left;
 }
 
 .trending-item > h2,
