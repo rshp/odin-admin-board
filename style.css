@@ -45,6 +45,20 @@ h2 {
 	box-sizing: border-box;
 }
 
+.main-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 1rem;
+}
+
+main {
+	padding: 1rem;
+}
+
+.main-item {
+	padding: 1rem;
+}
+
 body {
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr;
@@ -64,6 +78,7 @@ nav {
 .action-bar {
 	display: flex;
 	gap: 1rem;
+	align-items: center;
 }
 
 .nav-item {
@@ -221,7 +236,8 @@ nav img {
 }
 
 .announcements-container,
-.trending-container {
+.trending-container,
+.main-item {
 	background-color: white;
 	box-shadow: 5px 5px 30px 1px rgb(88, 88, 88);
 	border-radius: 1rem;
